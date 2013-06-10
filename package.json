@@ -1,0 +1,23 @@
+{
+  "name": "nockstream",
+  "version": "0.0.0",
+  "description": "A nock-compatible mockstream wrapper (for mocking HTTP requests).",
+  "main": "nockstream.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benastan/nockstream.git"
+  },
+  "dependencies": {
+    "mockstream": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js" : "*",
+    "nock": "*"
+  },
+  "author": "Ben Bergstein",
+  "license": "BSD"
+}
